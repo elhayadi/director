@@ -81,7 +81,7 @@ if ((getDolGlobalString('TAKEPOS_PHONE_BASIC_LAYOUT') == 1 && $conf->browser->la
 		}
 	}
 	$mobilepage = GETPOST('mobilepage', 'alpha');
-	$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+	$title = 'TakePOS - Director '.DOL_VERSION;
 	if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 		$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 	}

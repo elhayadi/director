@@ -74,7 +74,7 @@ if (!isset($form) || !is_object($form)) {
 }
 
 // Title
-$title = $langs->trans("HomeArea").' - Dolibarr '.DOL_VERSION;
+$title = $langs->trans("HomeArea").' - Director '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = $langs->trans("HomeArea").' - '.$conf->global->MAIN_APPLICATION_TITLE;
 }
